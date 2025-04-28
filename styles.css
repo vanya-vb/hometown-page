@@ -130,3 +130,75 @@ body {
 .guide-description {
     font-style: italic;
 }
+
+/* media queries */
+
+@media (max-width: 890px) {
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .activities-section {
+        height: auto;
+    }
+
+    .activities {
+        gap: 20px;
+    }
+
+    .img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .place-description {
+        font-size: 0.9rem;
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 570px) {
+
+    .activities {
+        flex-direction: column;
+    }
+
+    .img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .guide-container {
+        max-width: 300px;
+    }
+
+    .avatar-img {
+        width: 110px;
+        height: auto;
+    }
+
+    .guide-title {
+        font-size: 1.1rem;
+    }
+
+    .guide-description {
+        font-size: 0.8rem;
+    }
+
+    .guide-name {
+        font-size: 0.75rem;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .guide-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
