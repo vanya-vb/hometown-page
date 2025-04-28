@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+
+/* hero section */
+.hero-section {
+    max-width: 100vw;
+    height: 340px;
+    padding: 0 20px 0 20px;
+    background: url(images/velingrad.jpg);
+    background-color: #0e192963;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    background-color: #1d3557c0;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.subtitle {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    background-color: #457b9dd6;
+    padding: 5px 10px;
+    border-radius: 20px;
+    max-width: 600px;
+}
+
+/* activities section */
+.activities-section {
+    max-width: 100vw;
+    height: 340px;
+    padding: 40px;
+    background-color: #F1FAEE;
+    color: #1D3557;
+}
+
+.activities-section-title {
+    margin-bottom: 40px;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-around;
+}
+
+.place-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.place-title {
+    font-weight: 800;
+}
+
+.place-description {
+    max-width: 270px;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* footer */
+
+.footer-section {
+    max-width: 100vw;
+    height: 340px;
+    padding: 40px;
+    color: #1D3557;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guide-container {
+    max-width: 400px;
+    background-color: #A8DADC;
+    padding: 20px 15px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 4px;
+
+    display: flex;
+    gap: 13px;
+}
+
+.avatar-img {
+    width: 180px;
+}
+
+.guide-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.guide-title {
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+.guide-description {
+    font-style: italic;
+}
